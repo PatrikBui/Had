@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfSnakeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Snake Game" Width="420" Height="440"
+        KeyDown="Window_KeyDown">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            
+        </StackPanel>
+
+        <Canvas x:Name="HraciPole" Grid.Row="1" Background="Black"/>
+    </Grid>
+</Window>
